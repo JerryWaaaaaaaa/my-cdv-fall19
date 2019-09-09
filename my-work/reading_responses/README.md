@@ -1,3 +1,5 @@
+# Critical Questions for Big Data
+
 > Raw data is both an oxymoron and a bad idea.
 
 Raw data, according to Wikipedia, means "data that has not been processed for use". Raw data is then collected by researchers, and processed in specific ways, and turns into cooked data. Some people hold the belief that by analyzing data, we can somehow provide truth, and even objectivity. However, objectivity, as a notion, is defined by some subject according to their subjective observation and choices. In other words, the so-called "objectivity" we achieved has been through many kinds of subjectivity when data was processes, the choices of deciding what data to measure, the choice of what topic to choose, and the interpretation we make based on the result. Not to mention that there could be error in the raw data. Thus, just raw data itself is not enough to prove a truth or show objectivity, while by processing data, we already lose the objectivity in the process. We can't simply argue that data could give as insights about truth and objectivity. We have to be really careful with the process so that the outcome is meaningful and comparatively objective.
