@@ -6,7 +6,7 @@ Raw data, according to Wikipedia, means "data that has not been processed for us
 
 > accounting tools .... do not simply aid the measurements of economic activity, they shape the reality they measure
 
-Big data not only provide tools for sociology, humanity, marketing, and other fields, but also brings up questions which have potential reshape our social structure and the way we behave. As when CompStat was first invented, it changed the way the cops worked and the way they see "safety". In the recent years, CompStats has changed its meaning and is used to give cops their quota and record their work. It definitely changed the way the cops think about safety and their responsibilities. However, it also lead to some misbehavior of the policeman. 
+Big data not only provide tools for sociology, humanity, marketing, and other fields, but also brings up questions which have potential reshape our social structure and the way we behave. As when CompStat was first invented, it changed the way the cops worked and the way they see "safety". In the recent years, CompStats has changed its meaning and is used to give cops their quota and record their work. It definitely changed the way the cops think about safety and their responsibilities. However, it also lead to some misbehavior of the policeman.
 
 Twitter data is limited because of several factors.
 
