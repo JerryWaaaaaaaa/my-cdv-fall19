@@ -30,32 +30,31 @@ function divideData(data){
     // loop through the data and divide them based on "day"
     for (let i = 0; i < data.length; i ++ ){
         let datum = data[i];
-
         for (let j = 0; j < keys.length; j ++ ){
           let k = keys[j];
+          let index = getLocation(datum);
           if (k == "day") {
               switch(datum[k]){
                 case "Monday":
-                    getLocation(datum);
-                    days[0].push(datum);
+                    days[0][index].push(datum);
                     break;
                 case "Tuesday":
-                    days[1].push(datum);
+                    days[1][index].push(datum);
                     break;
                 case "Wednesday":
-                    days[2].push(datum);
-                      break;
+                    days[2][index].push(datum);
+                    break;
                 case "Thursday":
-                    days[3].push(datum);
-                      break;
+                    days[3][index].push(datum);
+                    break;
                 case "Friday":
-                    days[4].push(datum);
-                      break;
+                    days[4][index].push(datum);
+                    break;
                 case "Saturday":
-                    days[5].push(datum);
-                      break;
+                    days[5][index].push(datum);
+                    break;
                 case "Sunday":
-                    days[6].push(datum);
+                    days[6][index].push(datum);
                       break;
               }
           }
@@ -63,7 +62,7 @@ function divideData(data){
 
     }
 
-    //console.log(days);
+    console.log(days);
 
 }
 
