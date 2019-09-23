@@ -122,12 +122,12 @@ function getLocation(datum){
         case "home":
             return 0; // as an index
         case "cafe/restaurant":
-
+            return 1; // as an index
         case "familyMart/store":
-
+            return 2; // as an index
         case "school":
-
+            return 3; // as an index
         case "office":
-
+            return 4; // as an index
     }
 }
