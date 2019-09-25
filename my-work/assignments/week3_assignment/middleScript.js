@@ -86,6 +86,7 @@ function visualizeData(days){
       let locationGroups = chart.selectAll(".days").data(days).enter().append("g")
                                       .attr("class", getDaysClass)
                                       .attr("transform", getDaysPos)
+
                                       .selectAll(".locations").data(function(d,i,j) { console.log(d, i, j); return d; } ).enter().append("g")
                                                                       .attr("class", getLocationsClass)
                                                                       .attr("transform", getLocationsPos)
@@ -97,8 +98,8 @@ function visualizeData(days){
                 .attr("class", getItemsClass)
                 .attr("x", 0)
                 .attr("y", getItemsY)
-                .attr("width", 20)
-                .attr("height", 20)
+                .attr("width", 30)
+                .attr("height", 30)
                 .attr("fill", getLocationFill)
       ;
 
@@ -123,6 +124,8 @@ function visualizeData(days){
                 .attr("fill", "#c8c8c8")
       ;
 
+      // get throw away
+
 
 
 
@@ -134,7 +137,7 @@ function getDaysClass(data, i){
 }
 
 function getDaysPos(data, i){
-    let x = 300 * i + 150;
+    let x = 330 * i + 45;
     let y = 50;
     return "translate(" + x + "," + y + ")";
 }
@@ -154,7 +157,7 @@ function getItemsClass(datum){
 }
 
 function getItemsY(datum, i){
-    return i * 40;
+    return i * 50;
 }
 
 
@@ -164,17 +167,17 @@ function getLocationFill(datum){
     //console.log(datum, location);
     switch(location){
         case "home":
-            return "red";
+            return "#F1D4D4";
         case "cafe/restaurant":
-            return "orange";
+            return "#AC8DAF";
         case "familyMart/store":
-            return "yellow";
+            return "#42B883";
         case "school":
-            return "green";
+            return "#484c7f";
         case "office":
-            return "blue";
+            return "#315B96";
         default:
-            return "purple";
+            return "#505050";
     }
 }
 
@@ -182,9 +185,11 @@ function getMaterialFill(datum){
     let m = datum["material"];
     switch(m){
         case "plastic":
-            return "#999999";
+            return "#64b2cd";
         case "paper":
-            return "#404040";
+            return "#eaebd8";
+        default:
+            return "#f8a978";
     }
 }
 
