@@ -373,7 +373,7 @@
     "date": "12-Sep",
     "day": "Thursday",
     "time": "21:48",
-    "item": "paper pag",
+    "item": "paper bag",
     "material": "paper",
     "type": "residual",
     "purpose": "snack",
@@ -413,8 +413,8 @@
     "date": "13-Sep",
     "day": "Friday",
     "time": "12:40",
-    "item": "wipe",
-    "material": "plastic textile",
+    "item": "tissue",
+    "material": "plastic",
     "type": "residual",
     "purpose": "cleaning",
     "location": "cafe/restaurant"
@@ -423,8 +423,8 @@
     "date": "13-Sep",
     "day": "Friday",
     "time": "12:40",
-    "item": "wipe",
-    "material": "plastic textile",
+    "item": "tissue",
+    "material": "plastic",
     "type": "residual",
     "purpose": "cleaning",
     "location": "cafe/restaurant"
@@ -433,7 +433,7 @@
     "date": "13-Sep",
     "day": "Friday",
     "time": "12:40",
-    "item": "wipe package",
+    "item": "package",
     "material": "plastic",
     "type": "residual",
     "purpose": "cleaning",
@@ -793,7 +793,7 @@
     "date": "15-Sep",
     "day": "Sunday",
     "time": "14:22",
-    "item": "palstic bag",
+    "item": "plastic bag",
     "material": "plastic",
     "type": "residual",
     "purpose": "lunch",
@@ -883,8 +883,8 @@
     "date": "16-Sep",
     "day": "Monday",
     "time": "13:17",
-    "item": "palstic bag",
-    "material": "palstic",
+    "item": "plastic bag",
+    "material": "plastic",
     "type": "residual",
     "purpose": "lunch",
     "location": "cafe/restaurant"
@@ -894,7 +894,7 @@
     "day": "Monday",
     "time": "13:17",
     "item": "food package",
-    "material": "paper",
+    "material": "plastic",
     "type": "residual",
     "purpose": "lunch",
     "location": "cafe/restaurant"
@@ -1988,5 +1988,205 @@
     "type": "residual",
     "purpose": "cleaning",
     "location": "school"
+  },
+  {
+    "date": "25-Sep",
+    "day": "Wednesday",
+    "time": "11:40",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "lunch",
+    "location": "school"
+  },
+  {
+    "date": "25-Sep",
+    "day": "Wednesday",
+    "time": "14:30",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "school"
+  },
+  {
+    "date": "25-Sep",
+    "day": "Wednesday",
+    "time": "18:52",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "dinner",
+    "location": "school"
+  },
+  {
+    "date": "25-Sep",
+    "day": "Wednesday",
+    "time": "22:09",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "25-Sep",
+    "day": "Wednesday",
+    "time": "22:09",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "25-Sep",
+    "day": "Wednesday",
+    "time": "22:09",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "25-Sep",
+    "day": "Wednesday",
+    "time": "22:09",
+    "item": "spoon",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "26-Sep",
+    "day": "Thursday",
+    "time": "9:42",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "breakfast",
+    "location": "takeout"
+  },
+  {
+    "date": "26-Sep",
+    "day": "Thursday",
+    "time": "9:42",
+    "item": "cup",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "breakfast",
+    "location": "takeout"
+  },
+  {
+    "date": "26-Sep",
+    "day": "Thursday",
+    "time": "9:42",
+    "item": "food package",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "breakfast",
+    "location": "takeout"
+  },
+  {
+    "date": "26-Sep",
+    "day": "Thursday",
+    "time": "9:42",
+    "item": "food package",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "breakfast",
+    "location": "takeout"
+  },
+  {
+    "date": "26-Sep",
+    "day": "Thursday",
+    "time": "9:42",
+    "item": "food package",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "breakfast",
+    "location": "takeout"
+  },
+  {
+    "date": "26-Sep",
+    "day": "Thursday",
+    "time": "9:42",
+    "item": "plastic bag",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "breakfast",
+    "location": "takeout"
+  },
+  {
+    "date": "26-Sep",
+    "day": "Thursday",
+    "time": "12:30",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "barbor"
+  },
+  {
+    "date": "26-Sep",
+    "day": "Thursday",
+    "time": "13:36",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "dinner",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "26-Sep",
+    "day": "Thursday",
+    "time": "13:36",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "dinner",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "26-Sep",
+    "day": "Thursday",
+    "time": "13:36",
+    "item": "plastic bag",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "dinner",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "26-Sep",
+    "day": "Thursday",
+    "time": "14:33",
+    "item": "plastic bag",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "lunch",
+    "location": "takeout"
+  },
+  {
+    "date": "26-Sep",
+    "day": "Thursday",
+    "time": "14:33",
+    "item": "plastic bag",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "lunch",
+    "location": "takeout"
+  },
+  {
+    "date": "26-Sep",
+    "day": "Thursday",
+    "time": "14:33",
+    "item": "chopstick",
+    "material": "wood",
+    "type": "residual",
+    "purpose": "lunch",
+    "location": "takeout"
   }
 ]

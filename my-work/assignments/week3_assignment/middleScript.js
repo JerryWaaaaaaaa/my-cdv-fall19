@@ -411,7 +411,7 @@ function visualizeData(days){
 
       // create item image
       items.append("image")
-                      .attr("xlink:href", "images/trash.png")
+                      .attr("xlink:href", getItemImage)
                       .attr("x", 0)
                       .attr("y", 0)
                       .attr("width", itemWidth)
@@ -508,4 +508,9 @@ function getTypeFill(datum){
     else{
         return "red";
     }
+}
+
+function getItemImage(datum){
+    item = datum.item;
+    return "images/" + item + ".png"
 }
