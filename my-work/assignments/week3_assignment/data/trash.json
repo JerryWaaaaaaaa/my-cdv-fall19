@@ -5,7 +5,7 @@
     "time": "9:30",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "cafe/restaurant"
   },
@@ -15,7 +15,7 @@
     "time": "10:10",
     "item": "cup",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "coffee",
     "location": "cafe/restaurant"
   },
@@ -25,7 +25,7 @@
     "time": "10:10",
     "item": "straw",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "coffee",
     "location": "cafe/restaurant"
   },
@@ -35,7 +35,7 @@
     "time": "13:20",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "cafe/restaurant"
   },
@@ -45,7 +45,7 @@
     "time": "13:20",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "cafe/restaurant"
   },
@@ -55,7 +55,7 @@
     "time": "13:20",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "cafe/restaurant"
   },
@@ -65,7 +65,7 @@
     "time": "17:02",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "recyclable",
+    "type": "recyclable",
     "purpose": "tea",
     "location": "familyMart/store"
   },
@@ -75,7 +75,7 @@
     "time": "18:02",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "school"
   },
@@ -85,7 +85,7 @@
     "time": "18:02",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "school"
   },
@@ -95,7 +95,7 @@
     "time": "18:05",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "tea",
     "location": "school"
   },
@@ -105,7 +105,7 @@
     "time": "22:01",
     "item": "food package",
     "material": "paper",
-    "throw away": "recyclable",
+    "type": "recyclable",
     "purpose": "tea",
     "location": "school"
   },
@@ -115,7 +115,7 @@
     "time": "23:28",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "school"
   },
@@ -125,9 +125,9 @@
     "time": "23:28",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
-    "location": "school"
+    "location": "home"
   },
   {
     "date": "11-Sep",
@@ -135,7 +135,7 @@
     "time": "7:50",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "cafe/restaurant"
   },
@@ -145,7 +145,7 @@
     "time": "7:50",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "cafe/restaurant"
   },
@@ -155,7 +155,7 @@
     "time": "8:40",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "cafe/restaurant"
   },
@@ -165,7 +165,7 @@
     "time": "9:30",
     "item": "cup",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "coffee",
     "location": "cafe/restaurant"
   },
@@ -175,7 +175,7 @@
     "time": "9:30",
     "item": "straw",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "coffee",
     "location": "cafe/restaurant"
   },
@@ -185,7 +185,7 @@
     "time": "10:54",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -195,7 +195,7 @@
     "time": "13:22",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "tea",
     "location": "school"
   },
@@ -205,7 +205,7 @@
     "time": "12:40",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "school"
   },
@@ -215,7 +215,7 @@
     "time": "12:40",
     "item": "cup",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "tea",
     "location": "school"
   },
@@ -225,7 +225,7 @@
     "time": "16:02",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "school"
   },
@@ -235,7 +235,7 @@
     "time": "18:24",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "school"
   },
@@ -245,7 +245,7 @@
     "time": "18:24",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "school"
   },
@@ -255,7 +255,7 @@
     "time": "22:20",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "recyclable",
+    "type": "recyclable",
     "purpose": "milk",
     "location": "home"
   },
@@ -265,7 +265,7 @@
     "time": "0:40",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -275,7 +275,7 @@
     "time": "0:40",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -285,7 +285,7 @@
     "time": "0:40",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -295,7 +295,7 @@
     "time": "0:40",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -305,7 +305,7 @@
     "time": "9:26",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "familyMart/store"
   },
@@ -315,7 +315,7 @@
     "time": "9:26",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "familyMart/store"
   },
@@ -325,7 +325,7 @@
     "time": "9:26",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "familyMart/store"
   },
@@ -335,7 +335,7 @@
     "time": "10:27",
     "item": "fork",
     "material": "wood",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "familyMart/store"
   },
@@ -345,7 +345,7 @@
     "time": "10:27",
     "item": "straw",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "coffee",
     "location": "familyMart/store"
   },
@@ -355,7 +355,7 @@
     "time": "12:28",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "restaurant stay"
   },
@@ -365,7 +365,7 @@
     "time": "18:24",
     "item": "cup sleeve",
     "material": "paper",
-    "throw away": "recyclable",
+    "type": "recyclable",
     "purpose": "coffee",
     "location": "familyMart/store"
   },
@@ -375,7 +375,7 @@
     "time": "21:48",
     "item": "paper pag",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "familyMart/store"
   },
@@ -385,7 +385,7 @@
     "time": "21:48",
     "item": "cup",
     "material": "plastic",
-    "throw away": "recyclable",
+    "type": "recyclable",
     "purpose": "snack",
     "location": "familyMart/store"
   },
@@ -395,7 +395,7 @@
     "time": "12:40",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "cafe/restaurant"
   },
@@ -405,7 +405,7 @@
     "time": "12:40",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "cafe/restaurant"
   },
@@ -415,7 +415,7 @@
     "time": "12:40",
     "item": "wipe",
     "material": "plastic textile",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "cafe/restaurant"
   },
@@ -425,7 +425,7 @@
     "time": "12:40",
     "item": "wipe",
     "material": "plastic textile",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "cafe/restaurant"
   },
@@ -435,7 +435,7 @@
     "time": "12:40",
     "item": "wipe package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "cafe/restaurant"
   },
@@ -445,7 +445,7 @@
     "time": "14:57",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "bottled water",
     "location": "school"
   },
@@ -455,7 +455,7 @@
     "time": "16:20",
     "item": "cup sleeve",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "school"
   },
@@ -465,7 +465,7 @@
     "time": "16:20",
     "item": "cup",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "school"
   },
@@ -475,7 +475,7 @@
     "time": "17:36",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "subway station"
   },
@@ -485,7 +485,7 @@
     "time": "17:36",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "subway station"
   },
@@ -495,7 +495,7 @@
     "time": "17:36",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "subway station"
   },
@@ -505,7 +505,7 @@
     "time": "19:47",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "school"
   },
@@ -515,7 +515,7 @@
     "time": "19:47",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "school"
   },
@@ -525,7 +525,7 @@
     "time": "19:47",
     "item": "chopstick",
     "material": "wood",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "school"
   },
@@ -535,7 +535,7 @@
     "time": "21:40",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -545,7 +545,7 @@
     "time": "21:40",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -555,7 +555,7 @@
     "time": "21:40",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -565,7 +565,7 @@
     "time": "21:40",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -575,7 +575,7 @@
     "time": "21:40",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -585,7 +585,7 @@
     "time": "21:40",
     "item": "chopstick",
     "material": "wood",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "home"
   },
@@ -595,7 +595,7 @@
     "time": "2:30",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -605,7 +605,7 @@
     "time": "10:30",
     "item": "chopstick",
     "material": "wood",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "brunch",
     "location": "home"
   },
@@ -615,7 +615,7 @@
     "time": "2:56",
     "item": "cup sleeve",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "tea",
     "location": "school"
   },
@@ -625,7 +625,7 @@
     "time": "2:56",
     "item": "cup",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "tea",
     "location": "school"
   },
@@ -635,7 +635,7 @@
     "time": "12:37",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "familyMart/store"
   },
@@ -645,7 +645,7 @@
     "time": "12:37",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "familyMart/store"
   },
@@ -655,7 +655,7 @@
     "time": "12:37",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "familyMart/store"
   },
@@ -665,7 +665,7 @@
     "time": "18:30",
     "item": "package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "cafe/restaurant"
   },
@@ -675,7 +675,7 @@
     "time": "18:30",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "cafe/restaurant"
   },
@@ -685,7 +685,7 @@
     "time": "18:30",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "cafe/restaurant"
   },
@@ -695,7 +695,7 @@
     "time": "18:30",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "cafe/restaurant"
   },
@@ -705,7 +705,7 @@
     "time": "18:30",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "cafe/restaurant"
   },
@@ -715,7 +715,7 @@
     "time": "18:30",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "cafe/restaurant"
   },
@@ -725,7 +725,7 @@
     "time": "19:48",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "recyclable",
+    "type": "recyclable",
     "purpose": "tea",
     "location": "familyMart/store"
   },
@@ -735,7 +735,7 @@
     "time": "22:28",
     "item": "plastic bag",
     "material": "plastic",
-    "throw away": "recyclable",
+    "type": "recyclable",
     "purpose": "grocery",
     "location": "takeout"
   },
@@ -745,7 +745,7 @@
     "time": "23:40",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -755,7 +755,7 @@
     "time": "23:40",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -765,7 +765,7 @@
     "time": "9:47",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "cafe/restaurant"
   },
@@ -775,7 +775,7 @@
     "time": "10:03",
     "item": "cup",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "coffee",
     "location": "familyMart/store"
   },
@@ -785,7 +785,7 @@
     "time": "10:03",
     "item": "cup sleeve",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "coffee",
     "location": "familyMart/store"
   },
@@ -795,7 +795,7 @@
     "time": "14:22",
     "item": "palstic bag",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "takeout"
   },
@@ -805,7 +805,7 @@
     "time": "14:22",
     "item": "chopstick",
     "material": "wood",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "takeout"
   },
@@ -815,7 +815,7 @@
     "time": "14:22",
     "item": "spoon",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "takeout"
   },
@@ -825,7 +825,7 @@
     "time": "14:22",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "takeout"
   },
@@ -835,7 +835,7 @@
     "time": "14:22",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "takeout"
   },
@@ -845,7 +845,7 @@
     "time": "14:22",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "takeout"
   },
@@ -855,7 +855,7 @@
     "time": "20:06",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "cafe/restaurant"
   },
@@ -865,7 +865,7 @@
     "time": "9:30",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "cafe/restaurant"
   },
@@ -875,7 +875,7 @@
     "time": "10:10",
     "item": "cup",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "coffee",
     "location": "cafe/restaurant"
   },
@@ -885,7 +885,7 @@
     "time": "13:17",
     "item": "palstic bag",
     "material": "palstic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "cafe/restaurant"
   },
@@ -895,7 +895,7 @@
     "time": "13:17",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "cafe/restaurant"
   },
@@ -905,7 +905,7 @@
     "time": "13:17",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "cafe/restaurant"
   },
@@ -915,7 +915,7 @@
     "time": "13:48",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "tea",
     "location": "school"
   },
@@ -925,7 +925,7 @@
     "time": "18:57",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "cafe/restaurant"
   },
@@ -935,7 +935,7 @@
     "time": "9:54",
     "item": "chopstick",
     "material": "wood",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "home"
   },
@@ -945,7 +945,7 @@
     "time": "9:58",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -955,7 +955,7 @@
     "time": "9:58",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -965,7 +965,7 @@
     "time": "14:05",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "beverage",
     "location": "office"
   },
@@ -975,7 +975,7 @@
     "time": "16:30",
     "item": "printing paper",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "sketch",
     "location": "office"
   },
@@ -985,7 +985,7 @@
     "time": "16:30",
     "item": "printing paper",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "sketch",
     "location": "office"
   },
@@ -995,7 +995,7 @@
     "time": "16:30",
     "item": "printing paper",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "sketch",
     "location": "office"
   },
@@ -1005,7 +1005,7 @@
     "time": "16:30",
     "item": "printing paper",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "sketch",
     "location": "office"
   },
@@ -1015,7 +1015,7 @@
     "time": "20:57",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "cafe/restaurant"
   },
@@ -1025,7 +1025,7 @@
     "time": "9:50",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "familyMart/store"
   },
@@ -1035,7 +1035,7 @@
     "time": "9:50",
     "item": "cup",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "familyMart/store"
   },
@@ -1045,7 +1045,7 @@
     "time": "9:50",
     "item": "cup sleeve",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "familyMart/store"
   },
@@ -1055,7 +1055,7 @@
     "time": "10:20",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "school"
   },
@@ -1065,7 +1065,7 @@
     "time": "15:40",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "school"
   },
@@ -1075,7 +1075,7 @@
     "time": "18:30",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "school"
   },
@@ -1085,7 +1085,7 @@
     "time": "18:30",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "school"
   },
@@ -1095,7 +1095,7 @@
     "time": "22:38",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "recyclable",
+    "type": "recyclable",
     "purpose": "water",
     "location": "familyMart/store"
   },
@@ -1105,7 +1105,7 @@
     "time": "23:08",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "water",
     "location": "home"
   },
@@ -1115,7 +1115,7 @@
     "time": "23:49",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -1125,7 +1125,7 @@
     "time": "23:49",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -1135,7 +1135,7 @@
     "time": "9:06",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "subway station"
   },
@@ -1145,7 +1145,7 @@
     "time": "9:06",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "subway station"
   },
@@ -1155,7 +1155,7 @@
     "time": "11:30",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "tea",
     "location": "office"
   },
@@ -1165,7 +1165,7 @@
     "time": "12:30",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "office"
   },
@@ -1175,7 +1175,7 @@
     "time": "12:30",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "office"
   },
@@ -1185,7 +1185,7 @@
     "time": "14:40",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "tea",
     "location": "office"
   },
@@ -1195,7 +1195,7 @@
     "time": "15:26",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "office"
   },
@@ -1205,7 +1205,7 @@
     "time": "15:26",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "office"
   },
@@ -1215,7 +1215,7 @@
     "time": "17:48",
     "item": "printing paper",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "sketch",
     "location": "office"
   },
@@ -1225,7 +1225,7 @@
     "time": "19:06",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "cafe/restaurant"
   },
@@ -1235,7 +1235,7 @@
     "time": "22:47",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "tea",
     "location": "familyMart/store"
   },
@@ -1245,7 +1245,7 @@
     "time": "23:55",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -1255,7 +1255,7 @@
     "time": "23:55",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "cleaning",
     "location": "home"
   },
@@ -1265,7 +1265,7 @@
     "time": "10:04",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "cafe/restaurant"
   },
@@ -1275,7 +1275,7 @@
     "time": "10:04",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "cafe/restaurant"
   },
@@ -1285,7 +1285,7 @@
     "time": "12:20",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "tea",
     "location": "office"
   },
@@ -1295,7 +1295,7 @@
     "time": "15:20",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "tea",
     "location": "office"
   },
@@ -1305,7 +1305,7 @@
     "time": "15:48",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "office"
   },
@@ -1315,7 +1315,7 @@
     "time": "15:48",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "office"
   },
@@ -1325,7 +1325,7 @@
     "time": "18:08",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "dinner",
     "location": "school"
   },
@@ -1335,7 +1335,7 @@
     "time": "21:57",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "school"
   },
@@ -1345,7 +1345,7 @@
     "time": "21:57",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "school"
   },
@@ -1355,7 +1355,7 @@
     "time": "21:57",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "school"
   },
@@ -1363,9 +1363,9 @@
     "date": "20-Sep",
     "day": "Friday",
     "time": "22:48",
-    "item": "package",
+    "item": "plastic bag",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "shopping",
     "location": "home"
   },
@@ -1373,9 +1373,9 @@
     "date": "20-Sep",
     "day": "Friday",
     "time": "22:48",
-    "item": "package",
+    "item": "plastic bag",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "shopping",
     "location": "home"
   },
@@ -1383,9 +1383,9 @@
     "date": "20-Sep",
     "day": "Friday",
     "time": "22:48",
-    "item": "package",
+    "item": "plastic bag",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "shopping",
     "location": "home"
   },
@@ -1393,9 +1393,9 @@
     "date": "20-Sep",
     "day": "Friday",
     "time": "22:48",
-    "item": "package",
+    "item": "plastic bag",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "shopping",
     "location": "home"
   },
@@ -1403,9 +1403,9 @@
     "date": "21-Sep",
     "day": "Saturday",
     "time": "10:30",
-    "item": "package",
+    "item": "plastic bag",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "shopping",
     "location": "home"
   },
@@ -1413,9 +1413,9 @@
     "date": "21-Sep",
     "day": "Saturday",
     "time": "10:30",
-    "item": "package",
+    "item": "plastic bag",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "shopping",
     "location": "home"
   },
@@ -1425,7 +1425,7 @@
     "time": "12:40",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "breakfast",
     "location": "familyMart/store"
   },
@@ -1435,7 +1435,7 @@
     "time": "13:50",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "recyclable",
+    "type": "recyclable",
     "purpose": "tea",
     "location": "familyMart/store"
   },
@@ -1445,7 +1445,7 @@
     "time": "13:20",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "takeout"
   },
@@ -1455,7 +1455,7 @@
     "time": "13:20",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "takeout"
   },
@@ -1465,7 +1465,7 @@
     "time": "13:20",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "takeout"
   },
@@ -1475,7 +1475,7 @@
     "time": "13:20",
     "item": "food package",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "takeout"
   },
@@ -1485,7 +1485,7 @@
     "time": "13:20",
     "item": "chopstick",
     "material": "wood",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "lunch",
     "location": "takeout"
   },
@@ -1495,7 +1495,7 @@
     "time": "14:18",
     "item": "straw",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "tea",
     "location": "cafe/restaurant"
   },
@@ -1505,7 +1505,7 @@
     "time": "15:04",
     "item": "bottle",
     "material": "plastic",
-    "throw away": "recyclable",
+    "type": "recyclable",
     "purpose": "water",
     "location": "school"
   },
@@ -1515,7 +1515,7 @@
     "time": "20:48",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "takeout"
   },
@@ -1525,7 +1525,7 @@
     "time": "20:48",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "takeout"
   },
@@ -1535,7 +1535,7 @@
     "time": "20:48",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "takeout"
   },
@@ -1545,7 +1545,7 @@
     "time": "20:48",
     "item": "food package",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "takeout"
   },
@@ -1555,7 +1555,7 @@
     "time": "20:48",
     "item": "cup",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "water",
     "location": "takeout"
   },
@@ -1565,7 +1565,7 @@
     "time": "20:48",
     "item": "straw",
     "material": "plastic",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "water",
     "location": "takeout"
   },
@@ -1575,8 +1575,418 @@
     "time": "20:48",
     "item": "tissue",
     "material": "paper",
-    "throw away": "residual",
+    "type": "residual",
     "purpose": "snack",
     "location": "takeout"
+  },
+  {
+    "date": "22-Sep",
+    "day": "Sunday",
+    "time": "8:22",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "breakfast",
+    "location": "cafe/restaurant"
+  },
+  {
+    "date": "22-Sep",
+    "day": "Sunday",
+    "time": "9:04",
+    "item": "cup",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "breakfast",
+    "location": "cafe/restaurant"
+  },
+  {
+    "date": "22-Sep",
+    "day": "Sunday",
+    "time": "10:54",
+    "item": "food package",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "office"
+  },
+  {
+    "date": "22-Sep",
+    "day": "Sunday",
+    "time": "11:04",
+    "item": "bottle",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "water",
+    "location": "office"
+  },
+  {
+    "date": "22-Sep",
+    "day": "Sunday",
+    "time": "13:20",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "lunch",
+    "location": "school"
+  },
+  {
+    "date": "22-Sep",
+    "day": "Sunday",
+    "time": "15:30",
+    "item": "cup",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "22-Sep",
+    "day": "Sunday",
+    "time": "15:30",
+    "item": "cup sleeve",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "22-Sep",
+    "day": "Sunday",
+    "time": "18:40",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "dinner",
+    "location": "cafe/restaurant"
+  },
+  {
+    "date": "22-Sep",
+    "day": "Sunday",
+    "time": "18:40",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "dinner",
+    "location": "cafe/restaurant"
+  },
+  {
+    "date": "22-Sep",
+    "day": "Sunday",
+    "time": "18:36",
+    "item": "food package",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "22-Sep",
+    "day": "Sunday",
+    "time": "22:45",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "cleaning",
+    "location": "home"
+  },
+  {
+    "date": "22-Sep",
+    "day": "Sunday",
+    "time": "22:45",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "cleaning",
+    "location": "home"
+  },
+  {
+    "date": "23-Sep",
+    "day": "Monday",
+    "time": "9:30",
+    "item": "food package",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "breakfast",
+    "location": "cafe/restaurant"
+  },
+  {
+    "date": "23-Sep",
+    "day": "Monday",
+    "time": "9:30",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "breakfast",
+    "location": "cafe/restaurant"
+  },
+  {
+    "date": "23-Sep",
+    "day": "Monday",
+    "time": "10:30",
+    "item": "bottle",
+    "material": "plastic",
+    "type": "recyclable",
+    "purpose": "tea",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "23-Sep",
+    "day": "Monday",
+    "time": "12:50",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "lunch",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "23-Sep",
+    "day": "Monday",
+    "time": "12:50",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "lunch",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "23-Sep",
+    "day": "Monday",
+    "time": "12:50",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "lunch",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "23-Sep",
+    "day": "Monday",
+    "time": "12:50",
+    "item": "chopstick",
+    "material": "wood",
+    "type": "residual",
+    "purpose": "lunch",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "23-Sep",
+    "day": "Monday",
+    "time": "12:50",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "lunch",
+    "location": "school"
+  },
+  {
+    "date": "23-Sep",
+    "day": "Monday",
+    "time": "14:48",
+    "item": "cup",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "23-Sep",
+    "day": "Monday",
+    "time": "14:48",
+    "item": "cup sleeve",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "23-Sep",
+    "day": "Monday",
+    "time": "18:30",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "dinner",
+    "location": "school"
+  },
+  {
+    "date": "23-Sep",
+    "day": "Monday",
+    "time": "19:20",
+    "item": "cup",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "tea",
+    "location": "cafe/restaurant"
+  },
+  {
+    "date": "24-Sep",
+    "day": "Tuesday",
+    "time": "9:20",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "breakfast",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "24-Sep",
+    "day": "Tuesday",
+    "time": "9:20",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "breakfast",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "24-Sep",
+    "day": "Tuesday",
+    "time": "10:04",
+    "item": "bottle",
+    "material": "plastic",
+    "type": "recyclable",
+    "purpose": "tea",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "24-Sep",
+    "day": "Tuesday",
+    "time": "12:30",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "lunch",
+    "location": "school"
+  },
+  {
+    "date": "24-Sep",
+    "day": "Tuesday",
+    "time": "14:30",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "office"
+  },
+  {
+    "date": "24-Sep",
+    "day": "Tuesday",
+    "time": "14:30",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "office"
+  },
+  {
+    "date": "24-Sep",
+    "day": "Tuesday",
+    "time": "16:04",
+    "item": "bottle",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "tea",
+    "location": "office"
+  },
+  {
+    "date": "24-Sep",
+    "day": "Tuesday",
+    "time": "19:46",
+    "item": "food package",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "dinner",
+    "location": "cafe/restaurant"
+  },
+  {
+    "date": "24-Sep",
+    "day": "Tuesday",
+    "time": "19:46",
+    "item": "chopstick",
+    "material": "wood",
+    "type": "residual",
+    "purpose": "dinner",
+    "location": "cafe/restaurant"
+  },
+  {
+    "date": "24-Sep",
+    "day": "Tuesday",
+    "time": "19:46",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "dinner",
+    "location": "cafe/restaurant"
+  },
+  {
+    "date": "24-Sep",
+    "day": "Tuesday",
+    "time": "19:46",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "dinner",
+    "location": "cafe/restaurant"
+  },
+  {
+    "date": "24-Sep",
+    "day": "Tuesday",
+    "time": "19:46",
+    "item": "cup",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "tea",
+    "location": "cafe/restaurant"
+  },
+  {
+    "date": "24-Sep",
+    "day": "Tuesday",
+    "time": "19:46",
+    "item": "straw",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "tea",
+    "location": "cafe/restaurant"
+  },
+  {
+    "date": "25-Sep",
+    "day": "Wednesday",
+    "time": "2:00",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "25-Sep",
+    "day": "Wednesday",
+    "time": "2:00",
+    "item": "food package",
+    "material": "plastic",
+    "type": "residual",
+    "purpose": "snack",
+    "location": "familyMart/store"
+  },
+  {
+    "date": "25-Sep",
+    "day": "Wednesday",
+    "time": "10:30",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "cleaning",
+    "location": "home"
+  },
+  {
+    "date": "25-Sep",
+    "day": "Wednesday",
+    "time": "11:30",
+    "item": "tissue",
+    "material": "paper",
+    "type": "residual",
+    "purpose": "cleaning",
+    "location": "school"
   }
 ]
