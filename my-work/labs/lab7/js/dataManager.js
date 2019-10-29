@@ -177,12 +177,17 @@ sortDatapoints();
 // |___/_| |_|\__,_|_| |_| |_|\___|  \__,_|\__,_|\__\__,_|
 //
 
-// function shuffleDatapoints(){
-//   d3.shuffle(data);
-//   console.log("shuffled data:", data);
-//
-// }
-// //test it!
-// shuffleDatapoints();
+function shuffleDatapoints(){
+  d3.shuffle(data);
+  console.log("shuffled data:", data);
+
+}
+//test it!
+shuffleDatapoints();
 
 //now bind this function to a button in script.js
+function deleteMaxAndMinDatapoints(){
+  data.sort(function(a,b){return a.value-b.value});
+  data.splice(0,1);
+  data.splice(data.length-1,1);
+}

@@ -13,10 +13,10 @@ console.log(typeof data!=='undefined'?"seems like it ;-) it comes from the dataM
 function add(){
   addDatapoints(1);
   // we add new code below:
-  console.log("new data", data)
+  console.log("new data", data);
 
   // before we get back to dealing with the bars, we need to update
-  // out scales (and axis) to match the enw data.
+  // out scales (and axis) to match the new data.
   // scales are like machines we get custom made. and like machines,
   // after using them for a bit, we can adjust their inner workings
   // here we adjust the xScale we already defined and used. all
@@ -46,7 +46,9 @@ function add(){
   // each element on the page is associated with one datapoint
   // of the OLD data array. With our new data, we will now overwite
   // those associations. let's start by setting up the full situation:
-  theSituation = graphGroup.selectAll(".datapoint").data(data);
+  theSituation = graphGroup.selectAll(".datapoint").data(data, function(d){
+    return d.key;
+  });
   // note, we don't need "let" because the variable already exists
   console.log("the NEW full situation:", theSituation);
   // look at this, it's slightly unexpected at first, but fold out
@@ -66,13 +68,11 @@ function add(){
   // to look great, let's move over the updating elements first.
   // to recap, we extract the entering elments like so:
   enteringElements = theSituation.enter();
-  // and the exiting ones like so:
-  exitingElements = theSituation.exit();
   // note: i don't use "let" because this variables already exists
   // ...after extracting those subgroups, what's left in theSituation
   // are the elements that update.
   // let's try it:
-  theSituation.transition().duration(1000).attr("transform", function(d, i){
+  theSituation.transition().duration(500).attr("transform", function(d, i){
     return "translate("+ xScale(d.key)+ "," + (h - padding) + ")"
   });
 
@@ -81,8 +81,8 @@ function add(){
   // set a new maximum value and every other bar goes down a little)
   theSituation.select("rect")
    .transition()
-   .delay(1000)
-   .duration(200)
+   // .delay(500)
+   .duration(500)
    .attr("width", function(){
       return xScale.bandwidth();
    })
@@ -92,6 +92,7 @@ function add(){
    .attr("height", function(d, i){
      return yScale(d.value);
    })
+   .attr("fill", "black")
   ;
   // first note, I added a new feature, the .delay() impact the transtition, you can guess
   // in which way.
@@ -124,6 +125,313 @@ function add(){
       })
       .attr("fill", "#F27294")
       .transition()
+      .delay(1000)
+      .duration(500)
+      .attr("y", function(d,i){
+        return -yScale(d.value);
+      })
+      .attr("height", function(d, i){
+        return yScale(d.value);
+      })
+      .attr("fill", "black")
+   ;
+
+}
+document.getElementById("buttonA").addEventListener("click", add);
+
+function remove(){
+  removeDatapoints(1);
+
+  allNames = data.map(function(d){return d.key});
+
+  // update the x-axis info
+  xScale.domain(allNames);
+  xAxis.tickFormat(d=>{return data.filter(dd=>dd.key==d)[0].name;}); // we adjust this because it uses the new data
+
+  // update the y-axis info
+  yMax = d3.max(data, function(d){return d.value});
+  yDomain = [0, yMax+yMax*0.1];
+  yScale.domain(yDomain);
+
+  // update the situation
+  theSituation = graphGroup.selectAll(".datapoint").data(data, function(d){
+    return d.key;
+  });
+  console.log("the NEW full situation:", theSituation);
+
+  exitingElements = theSituation.exit();
+  console.log("removing", exitingElements);
+
+  exitingElements.select("rect")
+    .transition()
+    .duration(500)
+    .attr("y", function(d,i){
+      return -yScale(0);
+    })
+    .attr("height", function(d, i){
+      return yScale(0);
+    })
+    .attr("fill", "#F27294")
+  ;
+
+  // remove the empty datapoint
+  exitingElements.selectAll(".datapoint").remove();
+
+  // animate the x-axos
+  xAxisGroup.transition().delay(500).call(xAxis).selectAll("text").attr("font-size", 18); // we adjust this to bring the new axis onto the page
+  xAxisGroup.selectAll("line").remove();
+
+  // update the whole situation
+  theSituation.transition().delay(500).duration(500).attr("transform", function(d, i){
+    return "translate("+ xScale(d.key)+ "," + (h - padding) + ")"
+  });
+
+  // we aren't done with the updating setion yet
+  // the width needs to adjust, and even the height (as incoming data points MIGHT
+  // set a new maximum value and every other bar goes down a little)
+  theSituation.select("rect")
+   .transition()
+   .delay(500)
+   .duration(500)
+   .attr("width", function(){
+      return xScale.bandwidth();
+   })
+   .attr("y", function(d,i){
+     return -yScale(d.value);
+   })
+   .attr("height", function(d, i){
+     return yScale(d.value);
+   })
+  ;
+
+}
+document.getElementById("buttonB").addEventListener("click", remove);
+
+function removeAndAdd(){
+  removeAndAddDatapoints(3,3);
+
+  allNames = data.map(function(d){return d.key});
+
+  // update the x-axis info
+  xScale.domain(allNames);
+  xAxis.tickFormat(d=>{return data.filter(dd=>dd.key==d)[0].name;}); // we adjust this because it uses the new data
+
+  // update the y-axis info
+  yMax = d3.max(data, function(d){return d.value});
+  yDomain = [0, yMax+yMax*0.1];
+  yScale.domain(yDomain);
+
+  // update the situation
+  theSituation = graphGroup.selectAll(".datapoint").data(data, function(d){
+    return d.key;
+  });
+  console.log("the NEW full situation:", theSituation);
+
+  enteringElements = theSituation.enter();
+  exitingElements = theSituation.exit();
+
+  exitingElements.select("rect")
+    .transition()
+    .duration(500)
+    .attr("y", function(d,i){
+      return -yScale(0);
+    })
+    .attr("height", function(d, i){
+      return yScale(0);
+    })
+    .attr("fill", "#F27294")
+  ;
+
+  // remove the empty datapoint
+  exitingElements.selectAll(".datapoint").remove();
+
+  // animate the x-axis
+  xAxisGroup.transition().delay(500).call(xAxis).selectAll("text").attr("font-size", 18); // we adjust this to bring the new axis onto the page
+  xAxisGroup.selectAll("line").remove();
+
+  theSituation.transition().delay(500).duration(500).attr("transform", function(d, i){
+    return "translate("+ xScale(d.key)+ "," + (h - padding) + ")"
+  });
+
+  // we aren't done with the updating setion yet
+  // the width needs to adjust, and even the height (as incoming data points MIGHT
+  // set a new maximum value and every other bar goes down a little)
+  theSituation.select("rect")
+   .transition()
+   .delay(500)
+   .duration(500)
+   .attr("width", function(){
+      return xScale.bandwidth();
+   })
+   .attr("y", function(d,i){
+     return -yScale(d.value);
+   })
+   .attr("height", function(d, i){
+     return yScale(d.value);
+   })
+  ;
+
+  // add new elements
+  let incomingDataGroups = enteringElements
+    .append("g")
+      .classed("datapoint", true)
+  ;
+  // position the groups:
+  incomingDataGroups.attr("transform", function(d, i){
+    return "translate("+ xScale(d.key)+ "," + (h - padding) + ")"
+  });
+  // and append rectangles
+  incomingDataGroups
+    .append("rect")
+      .attr("y", function(d,i){
+        return 0;
+      })
+      .attr("height", function(d, i){
+        return 0;
+      })
+      .attr("width", function(){
+        return xScale.bandwidth();
+      })
+      .attr("fill", "#F27294")
+      .transition()
+      .delay(1000)
+      .duration(500)
+      .attr("y", function(d,i){
+        return -yScale(d.value);
+      })
+      .attr("height", function(d, i){
+        return yScale(d.value);
+      })
+      .attr("fill", "black")
+   ;
+
+}
+document.getElementById("buttonC").addEventListener("click", removeAndAdd);
+
+function sortData(){
+  sortDatapoints();
+
+  allNames = data.map(function(d){return d.key});
+
+  // update the x-axis info
+  xScale.domain(allNames);
+  xAxis.tickFormat(d=>{return data.filter(dd=>dd.key==d)[0].name;}); // we adjust this because it uses the new data
+  xAxisGroup.transition().call(xAxis).selectAll("text").attr("font-size", 18); // we adjust this to bring the new axis onto the page
+  xAxisGroup.selectAll("line").remove();
+
+  // update the y-axis info
+  yMax = d3.max(data, function(d){return d.value});
+  yDomain = [0, yMax+yMax*0.1];
+  yScale.domain(yDomain);
+
+  theSituation = graphGroup.selectAll(".datapoint").data(data, function(d){
+    return d.key;
+  });
+
+  console.log("the NEW full situation:", theSituation);
+
+  theSituation.transition().duration(500).attr("transform", function(d, i){
+    return "translate("+ xScale(d.key)+ "," + (h - padding) + ")"
+  });
+
+
+}
+document.getElementById("buttonD").addEventListener("click", sortData);
+
+function shuffleData(){
+  shuffleDatapoints();
+
+  allNames = data.map(function(d){return d.key});
+
+  // update the x-axis info
+  xScale.domain(allNames);
+  xAxis.tickFormat(d=>{return data.filter(dd=>dd.key==d)[0].name;}); // we adjust this because it uses the new data
+  xAxisGroup.transition().call(xAxis).selectAll("text").attr("font-size", 18); // we adjust this to bring the new axis onto the page
+  xAxisGroup.selectAll("line").remove();
+
+  // update the y-axis info
+  yMax = d3.max(data, function(d){return d.value});
+  yDomain = [0, yMax+yMax*0.1];
+  yScale.domain(yDomain);
+
+  theSituation = graphGroup.selectAll(".datapoint").data(data, function(d){
+    return d.key;
+  });
+
+  console.log("the NEW full situation:", theSituation);
+
+  theSituation.transition().duration(500).attr("transform", function(d, i){
+    return "translate("+ xScale(d.key)+ "," + (h - padding) + ")"
+  });
+
+}
+document.getElementById("buttonE").addEventListener("click", shuffleData);
+
+function deleteMaxAndMin(){
+  deleteMaxAndMinDatapoints();
+
+  allNames = data.map(function(d){return d.key});
+
+  // update the x-axis info
+  xScale.domain(allNames);
+  xAxis.tickFormat(d=>{return data.filter(dd=>dd.key==d)[0].name;}); // we adjust this because it uses the new data
+
+  // update the y-axis info
+  yMax = d3.max(data, function(d){return d.value});
+  yDomain = [0, yMax+yMax*0.1];
+  yScale.domain(yDomain);
+
+  // update the situation
+  theSituation = graphGroup.selectAll(".datapoint").data(data, function(d){
+    return d.key;
+  });
+  console.log("the NEW full situation:", theSituation);
+
+  enteringElements = theSituation.enter();
+  exitingElements = theSituation.exit();
+
+  exitingElements.select("rect")
+    .transition()
+    .duration(500)
+    .attr("y", function(d,i){
+      return -yScale(0);
+    })
+    .attr("height", function(d, i){
+      return yScale(0);
+    })
+    .attr("fill", "#F27294")
+  ;
+
+  // remove the empty datapoint
+  exitingElements.selectAll(".datapoint").remove();
+
+  // animate the x-axis
+  xAxisGroup.transition().delay(500).call(xAxis).selectAll("text").attr("font-size", 18); // we adjust this to bring the new axis onto the page
+  xAxisGroup.selectAll("line").remove();
+
+  // add new elements
+  let incomingDataGroups = enteringElements
+    .append("g")
+      .classed("datapoint", true)
+  ;
+  // position the groups:
+  incomingDataGroups.attr("transform", function(d, i){
+    return "translate("+ xScale(d.key)+ "," + (h - padding) + ")"
+  });
+  // and append rectangles
+  incomingDataGroups
+    .append("rect")
+      .attr("y", function(d,i){
+        return 0;
+      })
+      .attr("height", function(d, i){
+        return 0;
+      })
+      .attr("width", function(){
+        return xScale.bandwidth();
+      })
+      .attr("fill", "#F27294")
+      .transition()
       .delay(1200)
       .duration(2000)
       .attr("y", function(d,i){
@@ -134,32 +442,31 @@ function add(){
       })
       .attr("fill", "black")
    ;
-   
 
+  theSituation.transition().delay(500).duration(500).attr("transform", function(d, i){
+    return "translate("+ xScale(d.key)+ "," + (h - padding) + ")"
+  });
+
+  // we aren't done with the updating setion yet
+  // the width needs to adjust, and even the height (as incoming data points MIGHT
+  // set a new maximum value and every other bar goes down a little)
+  theSituation.select("rect")
+   .transition()
+   .delay(500)
+   .duration(200)
+   .attr("width", function(){
+      return xScale.bandwidth();
+   })
+   .attr("y", function(d,i){
+     return -yScale(d.value);
+   })
+   .attr("height", function(d, i){
+     return yScale(d.value);
+   })
+  ;
 
 }
-document.getElementById("buttonA").addEventListener("click", add);
-
-function remove(){
-  removeDatapoints(1);
-}
-document.getElementById("buttonB").addEventListener("click", remove);
-
-function removeAndAdd(){
-  removeAndAddDatapoints(1,1);
-}
-document.getElementById("buttonC").addEventListener("click", removeAndAdd);
-
-function sortData(){
-  sortDatapoints();
-}
-document.getElementById("buttonD").addEventListener("click", sortData);
-
-function shuffleData(){
-  shuffleDatapoints();
-}
-document.getElementById("buttonE").addEventListener("click", sortData);
-
+document.getElementById("buttonF").addEventListener("click", deleteMaxAndMin);
 
 // global variables that we need at various spots:
 let w = 800;
